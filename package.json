@@ -1,0 +1,26 @@
+{
+  "name": "vanguard",
+  "version": "1.0.0",
+  "description": "Use the Google Voice AIY to control a Chamberlain garage door opener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varatep/vanguard.git"
+  },
+  "author": "Varatep Buranintu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varatep/vanguard/issues"
+  },
+  "homepage": "https://github.com/varatep/vanguard#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "es6-promise": "^4.2.5",
+    "myq-api": "0.0.2",
+    "myqnode": "0.0.2"
+  }
+}
